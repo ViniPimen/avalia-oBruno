@@ -1,7 +1,7 @@
 # Avaliação N1 - Bruno
 
 ## TESTES DE CONSUMO DE API
-* Banco de dados: postgresql
+* Banco de dados: postgresqll
 * Ferramenta para teste de persistência: Insomnia
 
 **POST - Aluno**
