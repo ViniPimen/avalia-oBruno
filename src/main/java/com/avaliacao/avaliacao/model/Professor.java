@@ -26,4 +26,5 @@ public class Professor extends Pessoa {
 
     @ManyToMany(mappedBy = "professores")
     private Set<Curso> cursos;
+
 }

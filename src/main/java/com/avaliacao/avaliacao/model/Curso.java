@@ -1,9 +1,10 @@
 package com.avaliacao.avaliacao.model;
 
+
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.Set;
+import java.util.*;
 
 @Data
 @Builder
@@ -19,8 +20,8 @@ public class Curso {
     private Long codigo;
     private String descricao;
 
-    public void cadastrar() {
-    }
+    public void cadastrar(){}
+
 
     @ManyToOne
     @JoinColumn(name = "disciplina_id", referencedColumnName = "codigo") // Ajuste no nome da coluna
@@ -37,5 +38,7 @@ public class Curso {
     @ManyToOne
     @JoinColumn(name = "codigo_curso", referencedColumnName = "codigo")
     private Curso curso;
+
+
 
 }

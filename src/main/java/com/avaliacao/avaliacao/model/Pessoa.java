@@ -1,7 +1,9 @@
 package com.avaliacao.avaliacao.model;
 
+
 import jakarta.persistence.*;
 import lombok.*;
+
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -18,7 +20,7 @@ public class Pessoa {
     private String endereco;
     private String telefone;
 
-    public void cadastrar() {}
 
+    public void cadastrar(){}
 
 }

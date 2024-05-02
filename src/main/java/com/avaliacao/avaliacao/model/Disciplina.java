@@ -1,5 +1,6 @@
 package com.avaliacao.avaliacao.model;
 
+
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -25,4 +26,6 @@ public class Disciplina {
     @ManyToOne
     @JoinColumn(name = "codigo_curso", referencedColumnName = "codigo")
     private Curso curso;
+
+
 }

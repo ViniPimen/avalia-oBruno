@@ -1,11 +1,10 @@
 package com.avaliacao.avaliacao.model;
 
+
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.HashSet;
-import java.util.Set;
-
+import java.util.*;
 
 @Data
 @Builder
@@ -18,11 +17,11 @@ public class Turma {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long id_turma;
     private int ano;
-    private int semestre;
     private int diaSemana;
-    private String horarios;
+    private String Horarios;
+
 
     public void abrirTurma(){}
     public void alocarProfessor(){}
@@ -44,4 +43,5 @@ public class Turma {
             inverseJoinColumns = @JoinColumn(name = "aluno_id")
     )
     private Set<Aluno> alunos = new HashSet<>();
+
 }
