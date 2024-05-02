@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TESTES DE COSUMO DE API
 * Banco de dados: postgresql<br>
 * Ferramenta para teste de persistencia: Insomnia<br><br>
@@ -22,3 +23,6 @@
 
 
 
+=======
+Avaliação N1 - Bruno
+>>>>>>> 3493681 (Create README.md)
