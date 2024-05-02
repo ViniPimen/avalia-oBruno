@@ -21,3 +21,5 @@
 
 **DELETE - Aluno (ID 3)**
 ![image](https://github.com/ViniPimen/avaliacaoBruno/assets/146036375/1113ae53-70dd-4a33-ad11-b019504557e7)
+![image](https://github.com/ViniPimen/avaliacaoBruno/assets/146036375/60435f7c-f9c9-4e85-af86-34c30e119bc1)
+
